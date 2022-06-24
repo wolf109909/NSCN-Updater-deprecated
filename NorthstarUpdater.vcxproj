@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{8a305d2c-f43f-41f2-b9a4-88dd816ce342}</ProjectGuid>
+    <RootNamespace>NorthstarUpdater</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>H:\Coding\Repositories\NorthstarLauncher\NorthstarUpdater\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>H:\Coding\Repositories\NorthstarLauncher\NorthstarUpdater\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>H:\Coding\Repositories\NorthstarLauncher\NorthstarUpdater\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);CURL_STATICLIB;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>H:\Coding\Repositories\NorthstarLauncher\NorthstarUpdater\include</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="NorthstarUpdater.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\aes_platform.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\aria.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\asn1.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\asn1err.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\asn1_dsa.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\async.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\asyncerr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\bioerr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\bn.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\bnerr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\bn_conf.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\bn_dh.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\bn_srp.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\buffererr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\chacha.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\cmll_platform.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\cmperr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\cmserr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\comperr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\conferr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\crmferr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\cryptlib.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\cryptoerr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\cterr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\ctype.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\decoder.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\decodererr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\des_platform.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\dh.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\dherr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\dsa.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\dsaerr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\dso_conf.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\ec.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\ecerr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\ecx.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\encoder.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\encodererr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\engine.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\engineerr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\err.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\ess.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\esserr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\evp.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\evperr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\httperr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\lhash.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\md32_common.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\modes.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\objects.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\objectserr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\ocsperr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\pem.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\pemerr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\pkcs12err.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\pkcs7.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\pkcs7err.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\poly1305.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\ppc_arch.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\punycode.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\rand.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\randerr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\rand_pool.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\rsa.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\rsaerr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\security_bits.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\sha.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\siphash.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\siv.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\sm2.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\sm2err.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\sm4.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\sparc_arch.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\sparse_array.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\store.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\storeerr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\tserr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\types.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\uierr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\x509.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\x509err.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\x509v3err.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\__DECC_INCLUDE_EPILOGUE.H" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\__DECC_INCLUDE_PROLOGUE.H" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\asn1.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\bio.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\comp.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\conf.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\constant_time.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\core.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\cryptlib.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\dane.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\deprecated.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\der.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\dso.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\dsoerr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\endian.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\err.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\ffc.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\ktls.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\namemap.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\nelem.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\numbers.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\o_dir.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\packet.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\param_build_set.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\passphrase.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\property.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\propertyerr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\provider.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\refcount.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\sha3.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\sizes.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\sm3.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\sockets.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\sslconf.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\symhacks.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\thread_once.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\tlsgroups.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\tsan_assist.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\unicode.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\__DECC_INCLUDE_EPILOGUE.H" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\__DECC_INCLUDE_PROLOGUE.H" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\aes.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\asn1.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\asn1err.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\asn1t.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\asn1_mac.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\async.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\asyncerr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\bio.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\bioerr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\blowfish.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\bn.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\bnerr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\buffer.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\buffererr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\camellia.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\cast.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\cmac.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\cmp.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\cmperr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\cmp_util.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\cms.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\cmserr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\comp.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\comperr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\conf.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\conferr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\configuration.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\conftypes.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\conf_api.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\core.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\core_dispatch.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\core_names.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\core_object.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\crmf.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\crmferr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\crypto.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\cryptoerr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\cryptoerr_legacy.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ct.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\cterr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\decoder.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\decodererr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\des.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\dh.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\dherr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\dsa.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\dsaerr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\dtls1.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ebcdic.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ec.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ecdh.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ecdsa.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ecerr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\encoder.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\encodererr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\engine.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\engineerr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\err.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ess.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\esserr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\evp.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\evperr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\e_os2.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\fipskey.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\fips_names.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\hmac.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\http.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\httperr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\idea.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\kdf.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\kdferr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\lhash.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\macros.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\md2.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\md4.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\md5.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\mdc2.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\modes.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\objects.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\objectserr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\obj_mac.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ocsp.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ocsperr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\opensslconf.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\opensslv.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ossl_typ.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\params.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\param_build.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\pem.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\pem2.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\pemerr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\pkcs12.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\pkcs12err.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\pkcs7.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\pkcs7err.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\proverr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\provider.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\prov_ssl.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\rand.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\randerr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\rc2.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\rc4.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\rc5.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ripemd.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\rsa.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\rsaerr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\safestack.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\seed.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\self_test.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\sha.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\srp.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\srtp.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ssl.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ssl2.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ssl3.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\sslerr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\sslerr_legacy.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\stack.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\store.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\storeerr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\symhacks.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\tls1.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\trace.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ts.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\tserr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\txt_db.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\types.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ui.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\uierr.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\whrlpool.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\x509.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\x509err.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\x509v3.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\x509v3err.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\x509_vfy.h" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\__DECC_INCLUDE_EPILOGUE.H" />
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\__DECC_INCLUDE_PROLOGUE.H" />
+    <ClInclude Include="include\elzip\elzip.hpp" />
+    <ClInclude Include="include\elzip\fswrapper.hpp" />
+    <ClInclude Include="include\elzip\unzipper.hpp" />
+    <ClInclude Include="include\elzip\zipper.hpp" />
+    <ClInclude Include="include\fmt\args.h" />
+    <ClInclude Include="include\fmt\chrono.h" />
+    <ClInclude Include="include\fmt\color.h" />
+    <ClInclude Include="include\fmt\compile.h" />
+    <ClInclude Include="include\fmt\core.h" />
+    <ClInclude Include="include\fmt\format-inl.h" />
+    <ClInclude Include="include\fmt\format.h" />
+    <ClInclude Include="include\fmt\os.h" />
+    <ClInclude Include="include\fmt\ostream.h" />
+    <ClInclude Include="include\fmt\printf.h" />
+    <ClInclude Include="include\fmt\ranges.h" />
+    <ClInclude Include="include\fmt\std.h" />
+    <ClInclude Include="include\fmt\xchar.h" />
+    <ClInclude Include="include\libcurl\include\curl\curl.h" />
+    <ClInclude Include="include\libcurl\include\curl\curlver.h" />
+    <ClInclude Include="include\libcurl\include\curl\easy.h" />
+    <ClInclude Include="include\libcurl\include\curl\mprintf.h" />
+    <ClInclude Include="include\libcurl\include\curl\multi.h" />
+    <ClInclude Include="include\libcurl\include\curl\options.h" />
+    <ClInclude Include="include\libcurl\include\curl\stdcheaders.h" />
+    <ClInclude Include="include\libcurl\include\curl\system.h" />
+    <ClInclude Include="include\libcurl\include\curl\typecheck-gcc.h" />
+    <ClInclude Include="include\libcurl\include\curl\urlapi.h" />
+    <ClInclude Include="memalloc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\NorthstarDedicatedTest\include\crypto\bn_conf.h.in" />
+    <None Include="..\NorthstarDedicatedTest\include\crypto\dso_conf.h.in" />
+    <None Include="..\NorthstarDedicatedTest\include\openssl\asn1.h.in" />
+    <None Include="..\NorthstarDedicatedTest\include\openssl\asn1t.h.in" />
+    <None Include="..\NorthstarDedicatedTest\include\openssl\bio.h.in" />
+    <None Include="..\NorthstarDedicatedTest\include\openssl\cmp.h.in" />
+    <None Include="..\NorthstarDedicatedTest\include\openssl\cms.h.in" />
+    <None Include="..\NorthstarDedicatedTest\include\openssl\conf.h.in" />
+    <None Include="..\NorthstarDedicatedTest\include\openssl\configuration.h.in" />
+    <None Include="..\NorthstarDedicatedTest\include\openssl\crmf.h.in" />
+    <None Include="..\NorthstarDedicatedTest\include\openssl\crypto.h.in" />
+    <None Include="..\NorthstarDedicatedTest\include\openssl\ct.h.in" />
+    <None Include="..\NorthstarDedicatedTest\include\openssl\err.h.in" />
+    <None Include="..\NorthstarDedicatedTest\include\openssl\ess.h.in" />
+    <None Include="..\NorthstarDedicatedTest\include\openssl\fipskey.h.in" />
+    <None Include="..\NorthstarDedicatedTest\include\openssl\lhash.h.in" />
+    <None Include="..\NorthstarDedicatedTest\include\openssl\ocsp.h.in" />
+    <None Include="..\NorthstarDedicatedTest\include\openssl\opensslv.h.in" />
+    <None Include="..\NorthstarDedicatedTest\include\openssl\pkcs12.h.in" />
+    <None Include="..\NorthstarDedicatedTest\include\openssl\pkcs7.h.in" />
+    <None Include="..\NorthstarDedicatedTest\include\openssl\safestack.h.in" />
+    <None Include="..\NorthstarDedicatedTest\include\openssl\srp.h.in" />
+    <None Include="..\NorthstarDedicatedTest\include\openssl\ssl.h.in" />
+    <None Include="..\NorthstarDedicatedTest\include\openssl\ui.h.in" />
+    <None Include="..\NorthstarDedicatedTest\include\openssl\x509.h.in" />
+    <None Include="..\NorthstarDedicatedTest\include\openssl\x509v3.h.in" />
+    <None Include="..\NorthstarDedicatedTest\include\openssl\x509_vfy.h.in" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

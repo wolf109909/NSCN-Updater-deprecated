@@ -1,0 +1,992 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\include">
+      <UniqueIdentifier>{8c147392-2b8c-43f2-ba37-4d149845325b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include\libcurl">
+      <UniqueIdentifier>{379becf4-5db4-4ba8-a0e9-82b196bf4f63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include\fmt">
+      <UniqueIdentifier>{60a63bcf-24bc-4292-bf35-fa5d64e81c31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include\openssl">
+      <UniqueIdentifier>{cbaebe56-8b75-4a58-a85c-d97571ef529b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include\openssl\openssl">
+      <UniqueIdentifier>{48fa9664-a086-4c4f-a2fb-0f49172514a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include\openssl\internal">
+      <UniqueIdentifier>{413fe763-a1fd-4825-8e01-36bc3a4215ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include\openssl\crypto">
+      <UniqueIdentifier>{5fe0cc2c-c904-4b84-a17e-c36259250779}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NorthstarUpdater.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\libcurl\include\curl\curl.h">
+      <Filter>Header Files\include\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libcurl\include\curl\curlver.h">
+      <Filter>Header Files\include\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libcurl\include\curl\easy.h">
+      <Filter>Header Files\include\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libcurl\include\curl\mprintf.h">
+      <Filter>Header Files\include\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libcurl\include\curl\multi.h">
+      <Filter>Header Files\include\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libcurl\include\curl\options.h">
+      <Filter>Header Files\include\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libcurl\include\curl\stdcheaders.h">
+      <Filter>Header Files\include\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libcurl\include\curl\system.h">
+      <Filter>Header Files\include\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libcurl\include\curl\typecheck-gcc.h">
+      <Filter>Header Files\include\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libcurl\include\curl\urlapi.h">
+      <Filter>Header Files\include\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fmt\args.h">
+      <Filter>Header Files\include\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fmt\chrono.h">
+      <Filter>Header Files\include\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fmt\color.h">
+      <Filter>Header Files\include\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fmt\compile.h">
+      <Filter>Header Files\include\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fmt\core.h">
+      <Filter>Header Files\include\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fmt\format.h">
+      <Filter>Header Files\include\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fmt\format-inl.h">
+      <Filter>Header Files\include\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fmt\os.h">
+      <Filter>Header Files\include\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fmt\ostream.h">
+      <Filter>Header Files\include\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fmt\printf.h">
+      <Filter>Header Files\include\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fmt\ranges.h">
+      <Filter>Header Files\include\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fmt\std.h">
+      <Filter>Header Files\include\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fmt\xchar.h">
+      <Filter>Header Files\include\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\aes.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\asn1.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\asn1err.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\asn1t.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\asn1_mac.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\async.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\asyncerr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\bio.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\bioerr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\blowfish.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\bn.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\bnerr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\buffer.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\buffererr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\camellia.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\cast.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\cmac.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\cmp.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\cmperr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\cmp_util.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\cms.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\cmserr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\comp.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\comperr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\conf.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\conferr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\configuration.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\conftypes.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\conf_api.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\core.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\core_dispatch.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\core_names.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\core_object.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\crmf.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\crmferr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\crypto.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\cryptoerr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\cryptoerr_legacy.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ct.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\cterr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\decoder.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\decodererr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\des.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\dh.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\dherr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\dsa.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\dsaerr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\dtls1.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ebcdic.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ec.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ecdh.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ecdsa.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ecerr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\encoder.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\encodererr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\engine.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\engineerr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\err.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ess.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\esserr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\evp.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\evperr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\e_os2.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\fipskey.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\fips_names.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\hmac.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\http.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\httperr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\idea.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\kdf.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\kdferr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\lhash.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\macros.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\md2.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\md4.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\md5.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\mdc2.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\modes.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\objects.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\objectserr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\obj_mac.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ocsp.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ocsperr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\opensslconf.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\opensslv.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ossl_typ.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\params.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\param_build.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\pem.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\pem2.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\pemerr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\pkcs12.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\pkcs12err.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\pkcs7.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\pkcs7err.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\proverr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\provider.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\prov_ssl.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\rand.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\randerr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\rc2.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\rc4.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\rc5.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ripemd.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\rsa.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\rsaerr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\safestack.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\seed.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\self_test.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\sha.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\srp.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\srtp.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ssl.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ssl2.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ssl3.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\sslerr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\sslerr_legacy.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\stack.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\store.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\storeerr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\symhacks.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\tls1.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\trace.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ts.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\tserr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\txt_db.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\types.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\ui.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\uierr.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\whrlpool.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\x509.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\x509err.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\x509v3.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\x509v3err.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\x509_vfy.h">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\__DECC_INCLUDE_EPILOGUE.H">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\openssl\__DECC_INCLUDE_PROLOGUE.H">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\asn1.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\bio.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\comp.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\conf.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\constant_time.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\core.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\cryptlib.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\dane.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\deprecated.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\der.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\dso.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\dsoerr.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\endian.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\err.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\ffc.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\ktls.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\namemap.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\nelem.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\numbers.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\o_dir.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\packet.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\param_build_set.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\passphrase.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\property.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\propertyerr.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\provider.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\refcount.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\sha3.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\sizes.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\sm3.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\sockets.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\sslconf.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\symhacks.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\thread_once.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\tlsgroups.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\tsan_assist.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\unicode.h">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\__DECC_INCLUDE_EPILOGUE.H">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\internal\__DECC_INCLUDE_PROLOGUE.H">
+      <Filter>Header Files\include\openssl\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\aes_platform.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\aria.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\asn1.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\asn1err.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\asn1_dsa.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\async.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\asyncerr.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\bioerr.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\bn.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\bnerr.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\bn_conf.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\bn_dh.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\bn_srp.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\buffererr.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\chacha.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\cmll_platform.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\cmperr.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\cmserr.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\comperr.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\conferr.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\crmferr.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\cryptlib.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\cryptoerr.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\cterr.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\ctype.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\decoder.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\decodererr.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\des_platform.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\dh.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\dherr.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\dsa.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\dsaerr.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\dso_conf.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\ec.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\ecerr.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\ecx.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\encoder.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\encodererr.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\engine.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\engineerr.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\err.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\ess.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\esserr.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\evp.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\evperr.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\httperr.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\lhash.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\md32_common.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\modes.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\objects.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\objectserr.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\ocsperr.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\pem.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\pemerr.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\pkcs12err.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\pkcs7.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\pkcs7err.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\poly1305.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\ppc_arch.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\punycode.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\rand.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\randerr.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\rand_pool.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\rsa.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\rsaerr.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\security_bits.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\sha.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\siphash.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\siv.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\sm2.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\sm2err.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\sm4.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\sparc_arch.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\sparse_array.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\store.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\storeerr.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\tserr.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\types.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\uierr.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\x509.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\x509err.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\x509v3err.h">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\__DECC_INCLUDE_EPILOGUE.H">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NorthstarDedicatedTest\include\crypto\__DECC_INCLUDE_PROLOGUE.H">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="memalloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\elzip\elzip.hpp">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\elzip\fswrapper.hpp">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\elzip\unzipper.hpp">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\elzip\zipper.hpp">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\NorthstarDedicatedTest\include\openssl\asn1.h.in">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </None>
+    <None Include="..\NorthstarDedicatedTest\include\openssl\asn1t.h.in">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </None>
+    <None Include="..\NorthstarDedicatedTest\include\openssl\bio.h.in">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </None>
+    <None Include="..\NorthstarDedicatedTest\include\openssl\cmp.h.in">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </None>
+    <None Include="..\NorthstarDedicatedTest\include\openssl\cms.h.in">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </None>
+    <None Include="..\NorthstarDedicatedTest\include\openssl\conf.h.in">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </None>
+    <None Include="..\NorthstarDedicatedTest\include\openssl\configuration.h.in">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </None>
+    <None Include="..\NorthstarDedicatedTest\include\openssl\crmf.h.in">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </None>
+    <None Include="..\NorthstarDedicatedTest\include\openssl\crypto.h.in">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </None>
+    <None Include="..\NorthstarDedicatedTest\include\openssl\ct.h.in">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </None>
+    <None Include="..\NorthstarDedicatedTest\include\openssl\err.h.in">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </None>
+    <None Include="..\NorthstarDedicatedTest\include\openssl\ess.h.in">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </None>
+    <None Include="..\NorthstarDedicatedTest\include\openssl\fipskey.h.in">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </None>
+    <None Include="..\NorthstarDedicatedTest\include\openssl\lhash.h.in">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </None>
+    <None Include="..\NorthstarDedicatedTest\include\openssl\ocsp.h.in">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </None>
+    <None Include="..\NorthstarDedicatedTest\include\openssl\opensslv.h.in">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </None>
+    <None Include="..\NorthstarDedicatedTest\include\openssl\pkcs12.h.in">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </None>
+    <None Include="..\NorthstarDedicatedTest\include\openssl\pkcs7.h.in">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </None>
+    <None Include="..\NorthstarDedicatedTest\include\openssl\safestack.h.in">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </None>
+    <None Include="..\NorthstarDedicatedTest\include\openssl\srp.h.in">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </None>
+    <None Include="..\NorthstarDedicatedTest\include\openssl\ssl.h.in">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </None>
+    <None Include="..\NorthstarDedicatedTest\include\openssl\ui.h.in">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </None>
+    <None Include="..\NorthstarDedicatedTest\include\openssl\x509.h.in">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </None>
+    <None Include="..\NorthstarDedicatedTest\include\openssl\x509v3.h.in">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </None>
+    <None Include="..\NorthstarDedicatedTest\include\openssl\x509_vfy.h.in">
+      <Filter>Header Files\include\openssl\openssl</Filter>
+    </None>
+    <None Include="..\NorthstarDedicatedTest\include\crypto\bn_conf.h.in">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </None>
+    <None Include="..\NorthstarDedicatedTest\include\crypto\dso_conf.h.in">
+      <Filter>Header Files\include\openssl\crypto</Filter>
+    </None>
+  </ItemGroup>
+</Project>
